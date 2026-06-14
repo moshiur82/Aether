@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  @apply bg-white text-neutral-900 antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Apple-like glassmorphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(20px);
+}
